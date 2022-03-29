@@ -21,12 +21,13 @@
     * Column "duration" must be deleted
     * Check if there are any missing values in the dataset. If there are, drop the rows.
     * Plot histogram of the label and calculate the imbalance in the dataset.
-- [ ] Let's model the data:
+- [] Let's model the data:
     * Using the `train_test_split` function in scikit-learn, separate your dataset into a training and a test set, with a test size of 20% and random_state=50. Make sure the train/test split is stratified (and check that it is!). Stratified means that the percentages of classes in each fold remains constant.
+    
     * Report the results of 10-fold stratified cross-validation on the training set using a random forest classifier with 100 trees and depth=3. **Ensure you're using an appropriate metric** (print `sorted(sklearn.metrics.SCORERS.keys())` to see what are the valid options and choose one for cross-validation).
     * Compare the results of your classifier with that of a dummy classifier.
     * Use `GridSearchCV` to find a better set of parameters for your random forest.
-    * Print the cross-validation metric (whichever you previously chose) that you obtain for the random forest for the best parameters found with GridSearchCV
+    * Print the cross-validation metric (whichever you previously chose) that you obtain for the random forest for the best parameters found with 
     * What are the top 3 features?
     * Report the generalisation error (still using the same metric) on your test set.    
 - [ ] Make sure you save your changes in Github and do the Unit lab's quiz on Moodle!
