@@ -14,7 +14,7 @@
 	
 * In the Ipython notebook you created
 
-- [ ] Load the data from `bank-additional-full.csv`
+- [X] Load the data from `bank-additional-full.csv`
 - [ ] Data preprocessing:
     * Use LabelEncoder to convert the label into numbers.
     * Perform one-hot encoding on the categorical features using `df_dummies = pd.get_dummies(df)`
