@@ -15,11 +15,11 @@
 
 ## Lab Exercises
 
-- [ ] Create a folder called lab4
-- [ ] Create a notebook called *my_recommender.ipynb*
+- [X] Create a folder called lab6
+- [X] Create a notebook called *my_recommender.ipynb*
 
 In the Jupyter notebook you created
-- [ ] Load the data from ``jester-data-1.csv'',
+- [X] Load the data from ``jester-data-1.csv'',
     * The data is from [http://eigentaste.berkeley.edu/dataset/](http://eigentaste.berkeley.edu/dataset/) and it contains the ratings of 100 jokes from 11,190 users
 	* Check the dataset description to figure out which value you should replace with NaNs (the cells for which we don't have a rating). This is the **test set**. 
 	* To replace values when you load, you can find help here: [https://stackoverflow.com/questions/29247712/how-to-replace-a-value-in-pandas-with-nan](https://stackoverflow.com/questions/29247712/how-to-replace-a-value-in-pandas-with-nan)
